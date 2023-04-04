@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="751.0" prefWidth="458.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testscenebuilder.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <TextField fx:id="display" alignment="CENTER_RIGHT" prefHeight="117.0" prefWidth="418.0">
+      <font>
+         <Font size="30.0" />
+      </font></TextField>
+   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="400.0">
+      <children>
+          <Button fx:id="button1" onAction="#onButton1" prefHeight="100.0" prefWidth="100.0" text="1">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+         <Button fx:id="button2" layoutX="10.0" layoutY="10.0" onAction="#onButton2" prefHeight="100.0" prefWidth="100.0" text="2">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+         <Button fx:id="button3" layoutX="77.0" layoutY="10.0" onAction="#onButton3" prefHeight="100.0" prefWidth="100.0" text="3">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+         <Button fx:id="buttonDiv" layoutX="144.0" layoutY="10.0" onAction="#onDivButton" prefHeight="100.0" prefWidth="100.0" text="/">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+      </children>
+   </HBox>
+   <HBox alignment="CENTER" layoutX="30.0" layoutY="404.0" prefHeight="100.0" prefWidth="400.0">
+      <children>
+         <Button fx:id="button4" onAction="#onButton4" prefHeight="100.0" prefWidth="100.0" text="4">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+         <Button fx:id="button5" layoutX="10.0" layoutY="10.0" onAction="#onButton5" prefHeight="100.0" prefWidth="100.0" text="5">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+         <Button fx:id="button6" layoutX="77.0" layoutY="10.0" onAction="#onButton6" prefHeight="100.0" prefWidth="100.0" text="6">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+         <Button fx:id="buttonMul" layoutX="144.0" layoutY="10.0" onAction="#onMulButton" prefHeight="100.0" prefWidth="100.0" text="*">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+      </children>
+   </HBox>
+   <HBox alignment="CENTER" layoutX="30.0" layoutY="464.0" prefHeight="100.0" prefWidth="400.0">
+      <children>
+         <Button fx:id="button7" onAction="#onButton7" prefHeight="100.0" prefWidth="100.0" text="7">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+         <Button fx:id="button8" layoutX="10.0" layoutY="10.0" onAction="#onButton8" prefHeight="100.0" prefWidth="100.0" text="8">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+         <Button fx:id="button9" layoutX="77.0" layoutY="10.0" onAction="#onButton9" prefHeight="100.0" prefWidth="100.0" text="9">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+         <Button fx:id="buttonMinus" layoutX="144.0" layoutY="10.0" onAction="#onMinusButton" prefHeight="100.0" prefWidth="100.0" text="-">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+      </children>
+   </HBox>
+   <HBox alignment="CENTER" layoutX="30.0" layoutY="524.0" prefHeight="100.0" prefWidth="400.0">
+      <children>
+         <Button fx:id="button0" onAction="#onButton0" prefHeight="100.0" prefWidth="100.0" text="0">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+         <Button fx:id="buttonEq" layoutX="10.0" layoutY="10.0" onAction="#onEqButton" prefHeight="100.0" prefWidth="100.0" text="=">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+         <Button fx:id="buttonPlus" layoutX="77.0" layoutY="10.0" onAction="#onPlusButton" prefHeight="100.0" prefWidth="100.0" text="+">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+         <Button layoutX="144.0" layoutY="10.0" onAction="#onDelButton" prefHeight="100.0" prefWidth="100.0" text="Del">
+            <font>
+               <Font size="30.0" />
+            </font></Button>
+      </children>
+   </HBox>
+</VBox>
